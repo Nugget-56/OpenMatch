@@ -1,11 +1,11 @@
-import { ModeToggle } from "@/components/theme/mode-toggle";
+'use client'
+
+import LandingPage from '@/components/landingPage'
 
 export default function Home() {
   return (
     <>
-      <div>
-        landing page
-      </div>
+      <LandingPage />
     </>
-  );
+  )
 }
